@@ -1,0 +1,20 @@
+*{
+    overflow:inherit
+}
+.contenedor1{
+    
+    margin: 7% 10% 5% 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.contenedor2{
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        height: 20vh;
+        
+    }
+    
+}

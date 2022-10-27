@@ -1,0 +1,20 @@
+<div class="back" [routerLink]="['/menu']">
+    <img src="../../../../assets/back.png" alt="GoBack">
+</div>
+
+
+<div id="carousel" data-auto="true">
+    <div id="scene">
+      <img  src="../../../../assets/accenture.png" class="carousel_item" alt="Accenture"  [routerLink]="['/Accenture']">
+      <img  src="../../../../assets/fonoglobal.jpg" class="carousel_item" alt="Fonoglobal" [routerLink]="['/Fonoglobal']">
+      <img  src="../../../../assets/twireless.jpg" class="carousel_item" alt="Twireless" [routerLink]="['/Twireless']">
+      <img  src="../../../../assets/coding.jpg" class="carousel_item" (click)="GotoGit()" alt="Codigo">
+    </div>
+  
+    <div id="carousel_btn">
+      <div class="btn prev">Prev</div>
+      <div class="btn next">Next</div>
+    </div>
+</div>
+
+

@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.back{
+    cursor: pointer;
+    position:fixed;
+    left: 0;
+    top: 0;
+    margin-left: 2%;
+    margin-top: 2%;
+    img{
+        height: 10%;
+        width: 10%;
+        transition: 0.5s;
+    }
+    img:hover{
+        
+        height: 12%;
+        width: 12%;
+    }
+}
